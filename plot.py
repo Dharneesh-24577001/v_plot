@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 #to read the tsv file
-values= pd.read_csv("/home/dharneesh/fython/proj/v_plot_3/sorted_file.tsv", sep = '\t', header = None)
+values= pd.read_csv("sorted_file.tsv", sep = '\t', header = None)
 
 #to define the column heading
 values.columns =['freq','dist', 'len']
